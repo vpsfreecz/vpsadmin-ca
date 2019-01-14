@@ -1,0 +1,12 @@
+export CA_KEY=ca/key
+export CA_CERT=ca/cert
+export CA_DAYS=$((365*20))
+export CA_COUNTRY=CZ
+export CA_STATE="Czech Republic"
+export CA_ORG="vpsFree.cz, z.s."
+export CA_COMMONNAME="ca.vpsadmin.vpsfree.cz"
+
+export NODE_DAYS=$((365*20))
+export NODE_COUNTRY="$CA_COUNTRY"
+export NODE_STATE="$CA_STATE"
+export NODE_ORG="$CA_ORG"
